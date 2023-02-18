@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - Entry point
  *
@@ -9,10 +10,10 @@ int main(void)
 {
 	int a;
 
-	for (a = 0; a < 10; a++)
+	while (c < 10)
 	{
-		putchar(a + '0');
-		if (a < 9)
+		putchar(48 + c);
+		if (c != 9)
 		{
 			putcher(',');
 			putchar(' ');
