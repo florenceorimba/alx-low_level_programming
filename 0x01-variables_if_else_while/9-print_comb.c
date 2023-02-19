@@ -1,23 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Entry point
+ * main - Print all possible combination of single digit numbers
  *
  * Return: Always 0
  */
 
 int main(void)
 {
-	int a;
+	int number;
 
-	while (c < 10)
+	for (number = 0; number <= 9; number++;)
 	{
-		putchar(48 + c);
-		if (c != 9)
-		{
-			putcher(',');
-			putchar(' ');
-		}
+	putcher(number + '0');
+	if (number < 9)
+	{
+	putcher(',');
+	putchar(' ');
+	}
 	}
 	putchar('\n');
 	return (0);
